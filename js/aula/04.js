@@ -1,4 +1,3 @@
-// Click no botão altera cor do elemento para Azul
 $(document).ready(function() {
 
     // Elemento descendente
@@ -7,7 +6,7 @@ $(document).ready(function() {
     // Elemento "filho"
     $("li > ul").css("color", "red");
 
-    // Elemento "irmão" e todos "irmãos"
+    // Elemento "irmão"
     $("#Item1_1 + li").css("color", "blue");
     $("#Item1_1 ~ li").css("color", "blue");
 });
